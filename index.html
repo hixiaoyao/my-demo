@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    #demo{
+        
+        background-color: #999999;
+    }
+    </style>
+</head>
+<body>
+    <p>helllo world</p>
+<canvas width="400px" height="400px" style="backgroundColor: #999999;" id="demo"></canvas>
+<script type="text/javascript">
+var c=document.getElementById("demo");
+
+var ctx=c.getContext("2d");
+
+ctx.moveTo(0,0);
+ctx.lineTo(100,100);
+ctx.stroke();
+</script>
+
+</body>
+</html>
